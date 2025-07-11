@@ -12,7 +12,7 @@ deploy-testnet-anvil:
 	forge script script/DeployCeloSc.s.sol:DeployCeloSc --rpc-url $(RPC_URL_ANVIL) --private-key $(PRIVATE_KEY_ANVIL)  --broadcast -vvvv
 
 deploy-testnet-celo:
-	forge script script/DeployCeloSc.s.sol:DeployCeloSc --rpc-url $(RPC_URL_CELO) --account wallet-hello-celo  --broadcast -vvvv
+	forge script script/DeployCeloSc.s.sol:DeployCeloSc --rpc-url $(RPC_URL_CELO) --account wallet-celo-test  --broadcast -vvvv
 
 DEFAULT_ANVIL_KEY := 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
 
